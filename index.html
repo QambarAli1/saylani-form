@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saylani Form</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+    </style>
+</head>
+
+<body>
+
+
+    <center>
+
+        <img src="saylani-logo.png" alt="Saylani-logo">
+        <p class="smit">Saylani Mass Training & Job Creation Program</p>
+        <p class="reg">Registration / Entry Test Form</p>
+
+    </center>
+
+    <table>
+        <tr>
+            <td>
+
+                <div class="course">
+                    Select Your Course *
+                    <br>
+                    <br>
+                    <select name="Course" required>
+                        <option value="Web Development">Web Development</option>
+                        <option value="Artificial Intelligence">Artificial Intelligence</option>
+                        <option value="Graphics Designing">Graphics Designing</option>
+
+                    </select>
+                </div>
+
+            </td>
+
+            <td>
+
+                <div class="course">
+                    Select Your Batch *
+                    <br>
+                    <br>
+                    <select name="Course" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                    </select>
+                </div>
+
+            </td>
+        </tr>
+    </table>
+
+
+    <br>
+    <br>
+
+    <div class="yname">
+        <label for="name">
+            <input type="text" placeholder="Your Name" required>
+        </label>
+    </div>
+    <br>
+    <br>
+
+
+
+
+    <div class="line3">
+        <table>
+            <tr>
+                <td>
+                    <label for="DOB">
+                        Date of Birth *
+                    </label>
+                    <br>
+                    <br>
+                    <input type="date" required>
+                </td>
+                <td colspan="2" width="460px"></td>
+                <td class="age" width="500px">
+                    <label for="age" >
+                        Age *
+                    </label>
+                    <br>
+                    <br>
+                    <input type="text" required>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <div class="gender">
+        <label for="gender">
+            Gender *
+            <br>
+            <input type="radio" name="Gender" value="Male" checked> <strong class="male">Male</strong>
+            <input type="radio" name="Gender" value="Female" disabled> <strong>Female</strong>
+        </label>
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="CNIC / B-Form * "  required>
+            <br>
+            <p class="cnicExample">e.g 4220123456789</p>
+        </label>
+    </div>
+    <br>
+    <br>
+
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="Father's Name * "  required>
+
+        </label>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="Father's / Guardian's CNIC "  required>
+            <br>
+            <p class="cnicExample">e.g 7110323456789</p>
+        </label>
+    </div>
+    <br>
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="Full and Permanent Address *"  required>
+        </label>
+    </div>
+    <br>
+    <br>
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="Cell Number * "  required>
+            <br>
+            <p class="noExample">e.g 03301234567</p>
+        </label>
+    </div>
+    <br>
+
+
+
+    <div class="bio">
+        <label for="name">
+            <input type="text" placeholder="Email * "  required>
+            <br>
+            <p class="emailReq">Provide a valid, accessible email that we will use to contact you.</p>
+
+        </label>
+    </div>
+    <br>
+
+
+    <div class="qualification">
+        <label for="qualification">Last Qualification *
+            <br>
+            <br>
+            <input type="radio" name="qualification"> <strong>None</strong>
+            <input type="radio" name="qualification"> <strong>Matric</strong>
+            <input type="radio" name="qualification"> <strong>Intermediate</strong>
+            <input type="radio" name="qualification"> <strong>Bacheolar</strong>
+            <input type="radio" name="qualification"> <strong>Master</strong>
+            <input type="radio" name="qualification"> <strong>PhD</strong>
+        </label>
+
+    </div>
+
+    <br>
+    <br>
+
+
+    <div class="uploadPic">
+        <label for="uploadPic">
+            <strong>Upload your recent image (face front, without glasses and with a single-colored background)
+                *</strong>
+            <br>
+            <br>
+            <input type="file" required>
+            <br>
+            <strong style="font-size: 14px;">Only png or jpg with size < 1mb is allowed</strong>
+        </label>
+    </div>
+    <br>
+
+
+    <div class="availibility">
+        <p class="availOpt">
+            <b></b>
+            Availibility *
+            <br>
+            Drag and drop class timings mentioned below as per your availibility and priority.
+        </p>
+        <table width="1100px" height="150px">
+            <tr>
+                <b>
+                    <th scope="row">Priority # 1</th>
+                    <td>Monday , Tueday & Wednesday <br>
+                        3-5 pm
+                    </td>
+                </b>
+
+            </tr>
+        </table>
+    </div>
+    <br>
+
+
+    <div class="declaration">
+        <strong> Declaration Undertaking *</strong>
+        <br>
+        <ol>
+            <li>
+                I hereby, solemnly declare that the data and facts mentioned
+                herein are true and correct to the best of my knowledge.
+                Further, I will
+                <br>
+                abide by my
+                all the establish and future regulation and policies of SMIT
+            </li>
+            <br>
+            <li>
+                I hereby accept the responsibilites of the good conduct and guarantee
+                that I will not be involved in any other activity, polical or ethic,
+                <br>
+                but learning during my stay in the program.
+            </li>
+            <br>
+            <li>
+                Defiance will render my admission cancelled at any point in time.
+            </li>
+            <br>
+            <li>
+                Upon completion of course, I will complete the required project by SMIT
+            </li>
+        </ol>
+        <br>
+
+        <label for="agree">
+            <input type="checkbox"> I agree with above terms
+        </label>
+
+
+        <br>
+        <br>
+
+        <form action="http://www.example.org/subscribe.php">
+
+            <input type="image" src="submit.png" width="120" height="60" />
+
+        </form>
+
+    </div>
+    <br>
+    
+    <center>
+        <h4>Made by <a href=" https://www.facebook.com/qambarali15/ " target="_blank"> Qambar Ali </a> </h4>
+    </center>
+
+
+</body>
+
+</html>
